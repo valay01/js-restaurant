@@ -67,6 +67,7 @@ function addItem(id) {
             const updatedOldCartObject = oldCartobject.filter(
               (item) => item.id !== id
             );
+            
             console.log("NEW one", updatedOldCartObject);
 
             console.log("UPDATED WHOLE CART", oldCartobject);
